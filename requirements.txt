@@ -1,0 +1,20 @@
+# Core Audio
+pygame>=2.0.0              # Audio playback engine
+
+# Metadata extraction
+mutagen>=1.45.0            # MP3/Audio metadata reading
+
+# Display support
+Pillow>=9.0.0              # Image processing for displays
+st7789>=0.0.4              # ST7789 display driver (for DAC Line-out LCD HAT)
+# ssd1306>=0.2.0           # Uncomment if using SSD1306 OLED
+
+# GPIO (Raspberry Pi only)
+RPi.GPIO>=0.7.1            # GPIO control for buttons (RPi only)
+
+# Optional Web Interface
+flask>=3.0.0               # Web framework (optional)
+flask-cors>=4.0.0          # CORS support (optional)
+
+# Utilities
+python-dotenv>=1.0.0       # Environment configuration

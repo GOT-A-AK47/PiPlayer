@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PiPlayer specific
+logs/*.log
+logs/*
+!logs/.gitkeep
+music/*
+!music/.gitkeep
+!music/README.md
+playlists/*.json
+!playlists/.gitkeep
+
+# Config overrides
+config.local.json
+*.env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*~

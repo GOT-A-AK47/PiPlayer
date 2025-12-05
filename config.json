@@ -1,0 +1,47 @@
+{
+  "application": {
+    "name": "PiPlayer",
+    "version": "1.0.0"
+  },
+  "log_level": "INFO",
+  "log_file": "logs/piplayer.log",
+  "music": {
+    "directory": "music",
+    "playlist_directory": "playlists",
+    "supported_formats": [".mp3", ".ogg", ".wav", ".flac"]
+  },
+  "audio": {
+    "sample_rate": 44100,
+    "bit_depth": -16,
+    "channels": 2,
+    "buffer_size": 4096
+  },
+  "player": {
+    "auto_start": false,
+    "default_volume": 0.7,
+    "repeat_mode": "all",
+    "shuffle": false,
+    "last_playlist": null
+  },
+  "display": {
+    "enabled": true,
+    "driver": "st7789",
+    "width": 240,
+    "height": 240,
+    "rotation": 0,
+    "backlight_pin": 13
+  },
+  "buttons": {
+    "enabled": true,
+    "debounce_time": 0.02,
+    "button_a": 5,
+    "button_b": 6,
+    "button_x": 16,
+    "button_y": 24
+  },
+  "web": {
+    "enabled": false,
+    "host": "0.0.0.0",
+    "port": 5000
+  }
+}
